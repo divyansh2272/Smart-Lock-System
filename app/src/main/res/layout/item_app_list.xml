@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="?attr/selectableItemBackground"
+    android:padding="12dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/appIcon"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_centerVertical="true"/>
+    <TextView
+        android:textSize="16sp"
+        android:id="@+id/appName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Application Name"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="16dp"
+        android:layout_toStartOf="@+id/lockSwitch"
+        android:layout_toEndOf="@+id/appIcon"/>
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/lockSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"/>
+</RelativeLayout>
