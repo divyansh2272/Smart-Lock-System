@@ -115,7 +115,7 @@ This project was developed for educational purposes as part of a college project
 
 ## Author
 
-**Divyansh**
+**Divyansh Patel**
 
 B.Tech Computer Science and Engineering
 
